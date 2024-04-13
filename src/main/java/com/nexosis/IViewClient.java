@@ -5,7 +5,7 @@ import com.google.api.client.http.HttpResponse;
 import com.nexosis.impl.NexosisClientException;
 import com.nexosis.model.*;
 import com.nexosis.util.Action;
-
+//next updtae
 public interface IViewClient {
     Action<HttpRequest, HttpResponse> getHttpMessageTransformer();
     void setHttpMessageTransformer(Action<HttpRequest, HttpResponse> httpMessageTransformer);
