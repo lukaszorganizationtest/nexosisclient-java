@@ -7,7 +7,7 @@ import com.nexosis.model.*;
 import com.nexosis.util.Action;
 
 import java.util.UUID;
-
+//tutaj poprawka
 public interface IContestClient {
     Action<HttpRequest, HttpResponse> getHttpMessageTransformer();
     void setHttpMessageTransformer(Action<HttpRequest, HttpResponse> httpMessageTransformer);
